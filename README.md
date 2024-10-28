@@ -15,6 +15,13 @@
 ## 2024-2025 - Porjet de 2A : Conception d'un drone à aile rhomboédrique
 
 ## 2024 - Atelier design d'une semaine : Pont suspendu en bois de 7m de portée
+  L'ENPC organise tous les ans les Ateliers Design : par groupes de 6, mixés avec des étudiants en Design et en Architecture, nous avions une semaine pour concevoir, construire, essayer et détruire quelque chose. **Mon groupe devait construire un Pont en bois.**
+
+  Nous avons choisi, par originalité, de dessiner un pont suspendu, qui tienne simplement en étant posé sur deux tables. Le cahier des charges était le suivant : 
+   - 7m de portée
+   - Pouvoir supporter toute l'équipe en chargement, soit 450kg
+   - Effort sur le bilan écologique du pont & concours d'ACV
+
 
 
 
