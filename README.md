@@ -22,6 +22,27 @@
    - Pouvoir supporter toute l'équipe en chargement, soit 450kg
    - Effort sur le bilan écologique du pont & concours d'ACV
 
+   ![Maquette en spaghetti]("img\pont\spaghetto.jpg")
+   _maquette en spaghetti du pont pour des essais en chargement_
+
+  Le pont a la dynamique d'une poutre simple. Le chargement vers le bas est réparti dans les ailes latérales, composées de poutres en treillis. Ces poutres tirent à leur tour le segment supérieur des ailes, qui repose sur le support (les deux tables). En chargement, le pont se déforme ainsi comme une poutre simple : en flexion, de manière symétrique autour du voyageur. 
+
+  ![Maquette en spaghetti]("img\pont\devant.jpg")
+  ![Maquette en spaghetti](img\pont\pont side.jpg)
+  _le produit fini_
+
+
+  Nous lions les planches avec des vis et des boulons, mais la flexibilité du bois donne du jeu aux intersections des planches. Le pont vu de face a la dynamique d'un carré rotulé, il n'est pas stable. Pour fixer la rotation des planches dans les sections normales au sens de traversée, nous ajoutons un élément qui gêne la traversée.
+
+   ![Maquette en spaghetti]("img\pont\test.jpg")
+   _la pyramide du milieu empêche les deux ailes de battre sur les côtés_
+
+   ![Maquette en spaghetti]("img\pont\pont et maquette.jpg")
+
+
+
+
+
 
 
 
