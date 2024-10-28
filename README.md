@@ -28,7 +28,7 @@
   Le pont a la dynamique d'une poutre simple. Le chargement vers le bas est réparti dans les ailes latérales, composées de poutres en treillis. Ces poutres tirent à leur tour le segment supérieur des ailes, qui repose sur le support (les deux tables). En chargement, le pont se déforme ainsi comme une poutre simple : en flexion, de manière symétrique autour du voyageur. 
 
   ![Pont devant](img/pont/devant.jpg)
-  ![Pont coté](img/pont/pont side.jpg)
+  ![Pont coté](img/pont/pont_side.jpg)
   _le produit fini_
 
 
@@ -37,7 +37,7 @@
    ![Maquette en spaghetti](img/pont/test.jpg)
    _la pyramide du milieu empêche les deux ailes de battre sur les côtés_
 
-   ![Maquette en spaghetti](img/pont/pont et maquette.jpg)
+   ![Maquette en spaghetti](img/pont/pont_et_maquette.jpg)
 
 
 
