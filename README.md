@@ -34,10 +34,10 @@
 
   Nous lions les planches avec des vis et des boulons, mais la flexibilité du bois donne du jeu aux intersections des planches. Le pont vu de face a la dynamique d'un carré rotulé, il n'est pas stable. Pour fixer la rotation des planches dans les sections normales au sens de traversée, nous ajoutons un élément qui gêne la traversée.
 
-   ![Maquette en spaghetti]("img\pont\test.jpg")
+   ![Maquette en spaghetti](img/pont/test.jpg)
    _la pyramide du milieu empêche les deux ailes de battre sur les côtés_
 
-   ![Maquette en spaghetti]("img\pont\pont et maquette.jpg")
+   ![Maquette en spaghetti](img/pont/pont et maquette.jpg)
 
 
 
