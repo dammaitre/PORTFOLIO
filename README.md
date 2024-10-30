@@ -78,35 +78,37 @@
 
   Cet étude avait pour sujet la disposition des bâtiments fonctionnels au sein d'une ville (comprendre tout sauf les habitations). Nous avons simulé des villes entières, simulé leurs habitants qui, selon leurs besoins, se déplaçaient vers les bons bâtiments et revenaient chez eux. Notre étude visait à compter, pour chaque bâtiment fonctionnel, le temps moyen mis par ses visiteurs à y parvenir en utilisant le réseau routier, que nous interprétions comme une mesure de son bon ou mauvais positionnement (nous appelerons ce critère le _k\_bien_). Ces données étaient exploitées par un algorithme d'apprentissage renforcé qui échangait des bâtiments pour tendre vers une ville à la disposition idéale.
 
-    __Les habitants__
+    **Les habitants**
 
-  \t Nous devons donc simuler des habitants et leurs va-et-viens. Nous nous sommes basés sur la pyramide de Maslow pour définir les besoins de nos habitants, dont nous avons extrait 9 besoins mis en bijection avec une certaine catégorie de bâtiments. Chaque habitant a donc, au cour d'une simulation, 9 jauges qui décroissent tant que le besoin qu'elles représentent n'a pas été choisi. A chaque fois que l'habitant est de retour chez lui, il choisit la jauge la plus faible. Notons aussi que la vitesse de décroissance des jauges est reglée selon la pyramde de Maslow.
+  Nous devons donc simuler des habitants et leurs va-et-viens. Nous nous sommes basés sur la pyramide de Maslow pour définir les besoins de nos habitants, dont nous avons extrait 9 besoins mis en bijection avec une certaine catégorie de bâtiments. Chaque habitant a donc, au cour d'une simulation, 9 jauges qui décroissent tant que le besoin qu'elles représentent n'a pas été choisi. A chaque fois que l'habitant est de retour chez lui, il choisit la jauge la plus faible. Notons aussi que la vitesse de décroissance des jauges est reglée selon la pyramde de Maslow.
+
   ![Pyramide de Maslow](img/pakastan/maslow.png)
   _la pyramide de Maslow_
 
   ![Jauges d'un habitant pendant quelque tours](img/pakastan/besoins.png)
   _Jauges d'un habitant pendant quelque tours_
 
-    __Etape 1 : ville abstraite__
+    **Etape 1 : ville abstraite**
 
   ![La carte d'une ville abstraite](img/pakastan/tiles.png)
   
   Nous avons en premier lieu testé nos modèles et notre algorithme d'apprentissage sur une ville dessinée par nos soins : un simple damier de bâtiments aléatoires entourés par des routes (ci-dessus). Voici la différence entre le premier calcul de _k\_bien_ sur une disposition aléatoire et la disposition asymptotique atteinte.
 
   ![Première simulation](img/pakastan/tiles_debut.png)
-  _la première simulation_
+  _la première simulation. La carte à gauche représente les fonctions des différents bâtiments : 9 besoins plus les routes_
 
   ![asymptote](img/pakastan/tiles_asymptote.png)
   _la disposition asymptotique_
 
 
-    __Etape 2 : modéliser Strasbourg__
+    **Etape 2 : modéliser Strasbourg**
   
   ![strasbourg et ses batiments](img/pakastan/stras.png)
-  Une fois le modèle testé et approuvé, nous avons cherché à l'effectuer sur une vraie ville : Strasbourg.
+
+  Une fois le modèle testé et approuvé, nous avons cherché à l'appliquer sur une vraie ville : Strasbourg.
   Des nouvelles procédures s'ajoutent. Nous avons réussi, grâce à la base de données d'OpenStreetMap, à récupérer l'intégralité des bâtiments sur une zone géographique voulue, plus précisemment leurs positions géographiques, leurs surfaces et le besoin auxquel ils répondaient. Nous avons exploité cette base pour construire un graphe représentant le réseau routier entier de la zone d'intérêt. Enfin, ces constructions prenant plusieurs dizaines de minutes, nous avons trouvé un format de sérialisation pour sauvegarder des villes déjà construites. Une fois ces villes importées, le modèle marchait. Voici les résultats :
 
-  ![strasbourg : début](img/pakastan/stras_debutt.png)
+  ![strasbourg : début](img/pakastan/stras_debut.png)
   _calcul du k\_bien de la ville_
 
   ![strasbourg : asymptote](img/pakastan/stras_asymptote.png)
