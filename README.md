@@ -51,6 +51,27 @@
 
 ## 2024 - Projet de 1A : Apprendre à des créatures aquatiques simulées à nager via IA
 
+  Nous voulions simuler la sélection naturelle, vue comme un algorithme d'apprentissage automatique, sur un cas simple : apprendre à des créatures simulée à nager dans un liquide. Nous avons réalisé un _algorithme génétique_ : Une population reçoit un score en fonction de son aisance à se déplacer, les meilleures créatures sont conservée et se reproduisent, produisant la génération suivante.
+
+  ![Une créature simulée](img/aquabidule/creature_10.png)
+  ![Une créature simulée](img/aquabidule/creature_20.png)
+  ![Une créature simulée](img/aquabidule/creature_50.png)
+  _nos simulations de créatures_
+
+  Nous devions calculer les performances de nos créatures et donc les modéliser dans un fluide. Le projet nécessité une étude mêlant mécanique des fluides et dynamique des structures. Nous sommes arrivés à un calcul simplifié des forces de jet et de traînée qui soit applicable à une créature quelconque.
+
+  Nos créatures étaient diverses et varées. Nous ne voulions pas guider l'exploration algorithmique de l'espace des solutions, et donc nous nous sommes permis des créatures de taille aléatoires. Le deuxième enjeu était donc de faire reproduire deux créatures dont la morphologie pouvait être complètement différente pour produire un nouvel individu. La convergence de l'algorithme réside dans la reproduction : si les nouveaux individus sont trop loins de leurs parents, alors l'espace exploré est trop large et nous sommes proches d'une exploration aléatoire. Au contraire, si les enfants sont des copies conformes de leurs parents, le sous-ensemble exploré est très faible.
+
+  ![Convergence en critère](img/aquabidule/evolution_curve.PNG)
+  _simulations typique de plusieurs générations. La variable représentée sur l'axe vertical est croissante avec la distance parcourue par la créature, mais décroissante avec l'énergie musculaire dépensée. C'est ce critère qui nous permettait de classer les créatures_
+
+  Nous obtenons des simulations qui convergent vers deux types d'individus. Nos premiers résultats furent des méduses composés de 3 noeuds, qui avancaient en ouvrant puis en fermant leur articulation. En augmentant les probabilités de mutations agrandissantes à chaque reproduction, nous avond aussi pu obtenir des serpents composés d'un grand nombre d'articulations formant une ligne droite et se déplaçant en ondulant. 
+  ![Méduse](img/aquabidule/meduse.png)
+  ![Serpent](img/aquabidule/serpent.png)
+  _Les cycles de déplacement typiques de nos créatures_
+
+
+
 ## 2022/2023 - TIPE de Prépa : Optimisation du positionnement des bâtiments fonctionnels au sein d'une ville
 
 ## 2020 - Interface moderne pour une station alarme, calendrier et domotique
