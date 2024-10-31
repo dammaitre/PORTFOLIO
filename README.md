@@ -6,7 +6,7 @@
   - damien.maitre@live.fr
 
 
-### Sommaires
+### Sommaire
  1. [Prototypage et mécanique](#prototypage-et-mecanique)
   -  [Conception d'un SEA-GLIDER](#2024-2025---projet-de-2a--conception-dun-sea-glider-planeur-longue-portée-sous-marin)
   - [Conception d'un drone à ailes rhomboédriques](#2024-2025---porjet-de-2a--conception-dun-drone-à-aile-rhomboédrique)
@@ -14,7 +14,8 @@
 
   2. [Développement logicel](#developpement-logiciel)
    - [créatures IA capable de nager dans un fluide](#2024---projet-de-1a--apprendre-à-des-créatures-aquatiques-simulées-à-nager-via-ia)
-    - [Optimisation de la disposition des bâtiments dans une ville](#2022-2023---tipe-de-prépa--optimisation-du-positionnement-des-bâtiments-fonctionnels-au-sein-dune-ville)
+    - [Optimisation de la disposition des bâtiments dans une ville]
+    (#2022-2023---tipe-de-prépa--optimisation-du-positionnement-des-bâtiments-fonctionnels-au-sein-dune-ville)
 
 
 
