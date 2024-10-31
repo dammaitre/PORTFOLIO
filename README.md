@@ -6,12 +6,42 @@
   - damien.maitre@live.fr
 
 
+### Sommaires
+ 1. [Prototypage et mécanique](#prototypage-et-mecanique)
+  -  [Conception d'un SEA-GLIDER](#2024-2025---projet-de-2a--conception-dun-sea-glider-planeur-longue-portée-sous-marin)
+  - [Conception d'un drone à ailes rhomboédriques](#2024-2025---porjet-de-2a--conception-dun-drone-à-aile-rhomboédrique)
+  - [Conception d'un pont suspendu en bois de 7m](#2024---atelier-design-dune-semaine--pont-suspendu-en-bois-de-7m-de-portée)
+
+  2. [Développement logicel](#developpement-logiciel)
+   - [créatures IA capable de nager dans un fluide](#2024---projet-de-1a--apprendre-à-des-créatures-aquatiques-simulées-à-nager-via-ia)
+    - [Optimisation de la disposition des bâtiments dans une ville](#2022-2023---tipe-de-prépa--optimisation-du-positionnement-des-bâtiments-fonctionnels-au-sein-dune-ville)
+
+
+
 # PROTOTYPAGE ET MECANIQUE
   J'étudie à l'Ecole Nationale des Ponts et Chaussées la Mécanique des matériaux, l'Aéro- & Hydro-dynamisme et le Prototypage. Ces 2 années de formation m'ont donné l'occasion de participer à de nombreux projets.
 
 ## 2024-2025 - Projet de 2A : Conception d'un SEA-GLIDER, planeur longue portée sous-marin
 
+  _(Projet en cours)_
+
+  Nous concevons actuellement à trois un prototype complet de SEA-GLIDER. Grâce à un système de ballasts, l'engin oscille dans l'axe vertical entre la surface et 5m de fond. Ce mouvement vertical génère donner une poussée vers l'avant grâce à deux ailes, comme un planeur. 
+  
+  #### Fonctionnement
+
+  Les ailes sont plates (pour que la poussée soit la même en plongée et en montée), et doivent avoir un angle d'assiette du bon signe pour que la résultante des forces de pression soit toujours dirigée vers l'avant. Le SEA-GLIDER "plane" dans l'eau comme un cerf-volant ou un avion en papier : avec son angle d'assiette plus que par un profil d'aile particulier. Pour faire tanguer l'appareil dans le bon sens, nous contrôlons la position du centre de gravité grâce à des masselottes. L'écart entre ce dernier et le centre de poussée hydrodynamique qui lui est fixe créé l'angle d'assiette désiré. Les masselottes peuvent générer un angle de tanguage mais aussi de roulis, qui sert à faire tourner l'appareil sous l'eau.
+
 ## 2024-2025 - Porjet de 2A : Conception d'un drone à aile rhomboédrique
+
+  _(Projet en cours)_
+
+  Nous concevons à quatre un objet volant à aile rhomboédrique. L'idée est de supprimer les tourbillons marginaux à la périphérie des ailes en les reliant.
+
+  #### L'intérêt de l'aile rhomboédrique
+
+  Une aile créé de la portance, c'est-à-dire que la résultante des forces de pression exercées par l'air n'est pas nulle et pointe vers le haut. Cela signifie aussi que la pression au dessus de l'aile est inférieure à la pression en dessous sur laquelle repose l'aile. A la frontière de l'aile, ce gradient de pression existe toujours et produit un écoulement parasite : l'air au dessus de l'aile est poussé vers le bas et produit un tourbillon. Ce tourbillon est une zone de chaos turbulente dans laquelle les conditions de portance ne sont plus réunies.
+
+  Ces tourbillons existent parce que l'aile s'arrête. Nous voulons concevoir un biplan dont les deux plans d'ailes soient reliés entre eux par un segment vertical. Ainsi, l'air au dessus ne rejoint plus l'air au dessous, et nous supprimons les tourbillons turbulents. 
 
 ## 2024 - Atelier design d'une semaine : Pont suspendu en bois de 7m de portée
   L'ENPC organise tous les ans les Ateliers Design : par groupes de 6, mixés avec des étudiants en Design et en Architecture, nous avions une semaine pour concevoir, construire, essayer et détruire quelque chose. **Mon groupe devait construire un Pont en bois.**
@@ -78,7 +108,7 @@
 
   Cet étude avait pour sujet la disposition des bâtiments fonctionnels au sein d'une ville (comprendre tout sauf les habitations). Nous avons simulé des villes entières, simulé leurs habitants qui, selon leurs besoins, se déplaçaient vers les bons bâtiments et revenaient chez eux. Notre étude visait à compter, pour chaque bâtiment fonctionnel, le temps moyen mis par ses visiteurs à y parvenir en utilisant le réseau routier, que nous interprétions comme une mesure de son bon ou mauvais positionnement (nous appelerons ce critère le _k\_bien_). Ces données étaient exploitées par un algorithme d'apprentissage renforcé qui échangait des bâtiments pour tendre vers une ville à la disposition idéale.
 
-    **Les habitants**
+    #### Les habitants
 
   Nous devons donc simuler des habitants et leurs va-et-viens. Nous nous sommes basés sur la pyramide de Maslow pour définir les besoins de nos habitants, dont nous avons extrait 9 besoins mis en bijection avec une certaine catégorie de bâtiments. Chaque habitant a donc, au cour d'une simulation, 9 jauges qui décroissent tant que le besoin qu'elles représentent n'a pas été choisi. A chaque fois que l'habitant est de retour chez lui, il choisit la jauge la plus faible. Notons aussi que la vitesse de décroissance des jauges est reglée selon la pyramde de Maslow.
 
@@ -88,7 +118,7 @@
   ![Jauges d'un habitant pendant quelque tours](img/pakastan/besoins.png)
   _Jauges d'un habitant pendant quelque tours_
 
-    **Etape 1 : ville abstraite**
+    #### Etape 1 : ville abstraite
 
   ![La carte d'une ville abstraite](img/pakastan/tiles.png)
   
@@ -101,7 +131,7 @@
   _la disposition asymptotique_
 
 
-    **Etape 2 : modéliser Strasbourg**
+    #### Etape 2 : modéliser Strasbourg**
   
   ![strasbourg et ses batiments](img/pakastan/stras.png)
 
@@ -114,11 +144,3 @@
   ![strasbourg : asymptote](img/pakastan/stras_asymptote.png)
   _calcul du k\_bien sur la disposition asymptotique atteinte_
 
-
-
-
-
-
-
-
-## 2020 - Interface moderne pour une station alarme, calendrier et domotique
