@@ -40,7 +40,7 @@
 
   #### L'intérêt de l'aile rhomboédrique
 
-  Une aile créé de la portance, c'est-à-dire que la résultante des forces de pression exercées par l'air n'est pas nulle et pointe vers le haut. Cela signifie aussi que la pression au dessus de l'aile est inférieure à la pression en dessous sur laquelle repose l'aile. A la frontière de l'aile, ce gradient de pression existe toujours et produit un écoulement parasite : l'air au dessus de l'aile est poussé vers le bas et produit un tourbillon. Ce tourbillon est une zone de chaos turbulente dans laquelle les conditions de portance ne sont plus réunies.
+  Une aile créé de la portance, c'est-à-dire que la résultante des forces de pression exercées par l'air n'est pas nulle et pointe vers le haut. Cela signifie aussi que la pression au dessus de l'aile est inférieure à la pression en dessous sur laquelle repose l'aile. A la frontière de l'aile, ce gradient de pression existe toujours et produit un écoulement parasite : l'air au dessous de l'aile est poussé vers le haut et produit un tourbillon. Ce tourbillon est une zone de chaos turbulente dans laquelle les conditions de portance ne sont plus réunies.
 
   Ces tourbillons existent parce que l'aile s'arrête. Nous voulons concevoir un biplan dont les deux plans d'ailes soient reliés entre eux par un segment vertical. Ainsi, l'air au dessus ne rejoint plus l'air au dessous, et nous supprimons les tourbillons turbulents. 
 
@@ -96,7 +96,7 @@
   Nos créatures étaient diverses et varées. Nous ne voulions pas guider l'exploration algorithmique de l'espace des solutions, et donc nous nous sommes permis des créatures de taille aléatoires. Le deuxième enjeu était donc de faire reproduire deux créatures dont la morphologie pouvait être complètement différente pour produire un nouvel individu. La convergence de l'algorithme réside dans la reproduction : si les nouveaux individus sont trop loins de leurs parents, alors l'espace exploré est trop large et nous sommes proches d'une exploration aléatoire. Au contraire, si les enfants sont des copies conformes de leurs parents, le sous-ensemble exploré est très faible.
 
   #### Résultats
-  
+
   ![Convergence en critère](img/aquabidule/evolution_curve.PNG)
   _simulations typique de plusieurs générations. La variable représentée sur l'axe vertical est croissante avec la distance parcourue par la créature, mais décroissante avec l'énergie musculaire dépensée. C'est ce critère qui nous permettait de classer les créatures_
 
