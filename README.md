@@ -93,6 +93,8 @@
 
    ![Maquette en spaghetti](img/pont/pont_et_maquette.jpg)
 
+   Le problème principal du pont est le flambement. Lorsqu'on appui suffisament sur une poutre dans son sens longitudinal, elle se déforme de manière instable en formant une déformée de forme sinusoidale (résultat qu'on obtient en appuyant sur les bords d'une règle souple). Notre pont a le même problème : les arètes du haut flambent énormément.
+
 
 
 
