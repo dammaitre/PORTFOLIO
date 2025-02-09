@@ -8,7 +8,7 @@
 
 ### Sommaire
  1. [Prototypage et mécanique](#prototypage-et-mecanique)
-  -  [Conception d'un SEA-GLIDER](#2024-2025---projet-de-2a--conception-dun-sea-glider-planeur-longue-portée-sous-marin)
+  - [Conception d'un SEA-GLIDER](#2024-2025---projet-de-2a--conception-dun-sea-glider-planeur-longue-portée-sous-marin)
   - [Conception d'un drone à ailes rhomboédriques](#2024-2025---porjet-de-2a--conception-dun-drone-à-aile-rhomboédrique)
   - [Conception d'un pont suspendu en bois de 7m](#2024---atelier-design-dune-semaine--pont-suspendu-en-bois-de-7m-de-portée)
 
@@ -34,8 +34,6 @@
 
 ## 2024-2025 - Porjet de 2A : Conception d'un drone à aile rhomboédrique
 
-  _(Projet en cours)_
-
   Nous concevons à quatre un objet volant à aile rhomboédrique. L'idée est de supprimer les tourbillons marginaux à la périphérie des ailes en les reliant.
 
   #### L'intérêt de l'aile rhomboédrique
@@ -43,6 +41,18 @@
   Une aile créé de la portance, c'est-à-dire que la résultante des forces de pression exercées par l'air n'est pas nulle et pointe vers le haut. Cela signifie aussi que la pression au dessus de l'aile est inférieure à la pression en dessous sur laquelle repose l'aile. A la frontière de l'aile, ce gradient de pression existe toujours et produit un écoulement parasite : l'air au dessous de l'aile est poussé vers le haut et produit un tourbillon. Ce tourbillon est une zone de chaos turbulente dans laquelle les conditions de portance ne sont plus réunies.
 
   Ces tourbillons existent parce que l'aile s'arrête. Nous voulons concevoir un biplan dont les deux plans d'ailes soient reliés entre eux par un segment vertical. Ainsi, l'air au dessus ne rejoint plus l'air au dessous, et nous supprimons les tourbillons turbulents. 
+
+#### Etude
+
+  Notre approche fut de calculer d'abord la position optimale en terme de finesse (rapport portance sur trainée) des deux plans d'ailes. Nous avons pour cela parcouru l'espace des positions avec le logiciel de CFD StarCCM+. Nous avons découvert, en 2D, l'inutilité d'un biplan : il est plus efficace de prendre l'aile du dessus et de la coller au bout de l'aile du dessous. L'espoir demeure pourtant sur l'idée de joindre ces deux ailes, les écoulements marginaux comptant environ pour 30% de la traînée d'un aéronef.
+
+#### Construction de l'avion
+
+  Le fuselage est en polystyrène usiné et renferme une antenne, un moteur et une batterie. Les ailes sont constituées de sections en bois balza découpé au laser, tenues par des tubes de carbone. Les bords de fuite, d'attaque et les ailerons sont imprimés en 3D. L'aile est ensuite entoilée à l'aide d'un film thermocollant. Enfin, les jonctions sont imprimées en 3D. Le profil passe d'un Wortman FX à un profil symétrique NACA 0010 (l'aile verticale ne doit rien porter au risque de déstabiliser l'avion).
+
+#### Essais
+
+  Il est très difficile d'évaluer les performances de l'avion. Notre avion est petit, et nous n'avons pas réussi à stabiliser les points d'applications des forces aéronautiques. Pour qu'un avion reste stable, il faut absolument que les centres de portance, de traînée, de poussée moteur et de gravitée soit confondus, sinon l'avion bascule. Ce fut un point sous-estimé lors de la construction. Avec en plus le vent, les deux ailes qui traînent et l'angle de jeté sans doute un peu généreux, notre aéroplane est immédiatement parti en looping (2 tours et demi !) avant de retomber sur le sol. Une perspective évidente est donc d'équilibrer l'avion : remonter le moteur au milieu des deux ailes, et raccourcir l'empennage pour aligner barycentre et centre de portance. Un décolage classique avec une route et un train est sans doute aussi plus fiable qu'un lanceur de drones amateur. Remarquons enfin qu'intrinsèquement, les deux ailes verticales créent une trainée énorme si le vent n'est pas parfaitement aligné avec l'avion.
 
 ## 2024 - Atelier design d'une semaine : Pont suspendu en bois de 7m de portée
   L'ENPC organise tous les ans les Ateliers Design : par groupes de 6, mixés avec des étudiants en Design et en Architecture, nous avions une semaine pour concevoir, construire, essayer et détruire quelque chose. **Mon groupe devait construire un Pont en bois.**
