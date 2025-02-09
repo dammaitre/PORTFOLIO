@@ -32,9 +32,12 @@
 
   Les ailes sont plates (pour que la poussée soit la même en plongée et en montée), et doivent avoir un angle d'assiette du bon signe pour que la résultante des forces de pression soit toujours dirigée vers l'avant. Le SEA-GLIDER "plane" dans l'eau comme un cerf-volant ou un avion en papier : avec son angle d'assiette plus que par un profil d'aile particulier. Pour faire tanguer l'appareil dans le bon sens, nous contrôlons la position du centre de gravité grâce à des masselottes. L'écart entre ce dernier et le centre de poussée hydrodynamique qui lui est fixe créé l'angle d'assiette désiré. Les masselottes peuvent générer un angle de tanguage mais aussi de roulis, qui sert à faire tourner l'appareil sous l'eau.
 
-## 2024-2025 - Porjet de 2A : Conception d'un drone à aile rhomboédrique
+## 2024-2025 - Projet de 2A : Conception d'un drone à aile rhomboédrique
 
   Nous concevons à quatre un objet volant à aile rhomboédrique. L'idée est de supprimer les tourbillons marginaux à la périphérie des ailes en les reliant.
+
+  ![alt text](img/aile/navion.jpg)
+  _L'avion avant l'essai_
 
   #### L'intérêt de l'aile rhomboédrique
 
@@ -46,13 +49,24 @@
 
   Notre approche fut de calculer d'abord la position optimale en terme de finesse (rapport portance sur trainée) des deux plans d'ailes. Nous avons pour cela parcouru l'espace des positions avec le logiciel de CFD StarCCM+. Nous avons découvert, en 2D, l'inutilité d'un biplan : il est plus efficace de prendre l'aile du dessus et de la coller au bout de l'aile du dessous. L'espoir demeure pourtant sur l'idée de joindre ces deux ailes, les écoulements marginaux comptant environ pour 30% de la traînée d'un aéronef.
 
+  ![alt text](img/aile/star.png)
+  _Représentation graphique de la vitesse du fluide, résultat convergé_
+
 #### Construction de l'avion
 
   Le fuselage est en polystyrène usiné et renferme une antenne, un moteur et une batterie. Les ailes sont constituées de sections en bois balza découpé au laser, tenues par des tubes de carbone. Les bords de fuite, d'attaque et les ailerons sont imprimés en 3D. L'aile est ensuite entoilée à l'aide d'un film thermocollant. Enfin, les jonctions sont imprimées en 3D. Le profil passe d'un Wortman FX à un profil symétrique NACA 0010 (l'aile verticale ne doit rien porter au risque de déstabiliser l'avion).
+  ![Gros plan sur l'aile](img/aile/l.jpg)
+  _Gros plan sur l'aile_
+
+  ![CAO de la jonction verticale](img/aile/jonctin.png)
+  _Une des deux sections verticales_
 
 #### Essais
 
   Il est très difficile d'évaluer les performances de l'avion. Notre avion est petit, et nous n'avons pas réussi à stabiliser les points d'applications des forces aéronautiques. Pour qu'un avion reste stable, il faut absolument que les centres de portance, de traînée, de poussée moteur et de gravitée soit confondus, sinon l'avion bascule. Ce fut un point sous-estimé lors de la construction. Avec en plus le vent, les deux ailes qui traînent et l'angle de jeté sans doute un peu généreux, notre aéroplane est immédiatement parti en looping (2 tours et demi !) avant de retomber sur le sol. Une perspective évidente est donc d'équilibrer l'avion : remonter le moteur au milieu des deux ailes, et raccourcir l'empennage pour aligner barycentre et centre de portance. Un décolage classique avec une route et un train est sans doute aussi plus fiable qu'un lanceur de drones amateur. Remarquons enfin qu'intrinsèquement, les deux ailes verticales créent une trainée énorme si le vent n'est pas parfaitement aligné avec l'avion.
+
+  ![Petit avion parti trop tôt](img/aile/casse.jpg)
+  _L'épave post-cabrioles_
 
 ## 2024 - Atelier design d'une semaine : Pont suspendu en bois de 7m de portée
   L'ENPC organise tous les ans les Ateliers Design : par groupes de 6, mixés avec des étudiants en Design et en Architecture, nous avions une semaine pour concevoir, construire, essayer et détruire quelque chose. **Mon groupe devait construire un Pont en bois.**
