@@ -1,0 +1,200 @@
+%% ============================================================
+%%  CV – Damien MAÎTRE  |  Research Internship Template
+%%  Engine : XeLaTeX  |  Font : Calibri (or fallback Linux)
+%% ============================================================
+\documentclass[a4paper,10pt]{article}
+
+% ── Packages ─────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=1.8cm, right=1.8cm, top=1.6cm, bottom=1.6cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{multicol}
+
+% ── Colours ──────────────────────────────────────────────────
+\definecolor{accent}{HTML}{1A3C6E}
+\definecolor{light}{HTML}{4A7CB5}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rule}{HTML}{CCCCCC}
+
+% ── Hyperlinks ───────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=light,
+  linkcolor=accent
+}
+
+% ── No page number ───────────────────────────────────────────
+\pagestyle{empty}
+
+% ── Section titles ───────────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}{}
+  [\vspace{2pt}\color{rule}\hrule\vspace{4pt}]
+
+\titlespacing{\section}{0pt}{10pt}{4pt}
+
+% ── List settings ────────────────────────────────────────────
+\setlist[itemize]{
+  leftmargin=1.4em,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+}
+\renewcommand{\labelitemi}{\textcolor{light}{\small$\bullet$}}
+
+% ── Entry command: \entry{dates}{title}{subtitle}{bullets} ───
+\newcommand{\entry}[4]{%
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}p{2.6cm}@{\hspace{6pt}}X@{}}
+    \small\textcolor{muted}{#1} &
+    \textbf{#2} \newline
+    \textit{\small\textcolor{muted}{#3}}
+    \vspace{1pt}
+    #4
+  \end{tabularx}
+  \vspace{4pt}
+}
+
+% ── Skill row: \skillrow{category}{items} ────────────────────
+\newcommand{\skillrow}[2]{%
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}p{3.0cm}@{\hspace{4pt}}X@{}}
+    \small\textbf{\textcolor{accent}{#1}} & \small #2
+  \end{tabularx}\vspace{2pt}
+}
+
+%% ============================================================
+\begin{document}
+
+% ── NAME & CONTACT ───────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{accent} Damien MAÎTRE}\\[4pt]
+  {\normalsize\textit{\textcolor{muted}{MSc Engineering Student — CFD, HPC \& Numerical Methods}}}\\[6pt]
+  \small
+  \textcolor{muted}{
+    \faEnvelope\ \href{mailto:damien.maitre@enpc.fr}{damien.maitre@enpc.fr}
+    \quad\textbf{·}\quad
+    \faPhone\ +33 7 83 41 50 90
+    \quad\textbf{·}\quad
+    \faLinkedin\ \href{https://linkedin.com/in/damienmaitre}{linkedin.com/in/damienmaitre}
+    \quad\textbf{·}\quad
+    \faGithub\ \href{https://github.com/dammaitre}{github.com/dammaitre}
+  }
+\end{center}
+
+\vspace{-4pt}
+{\color{accent}\hrule height 1.2pt}
+\vspace{8pt}
+
+% ── EDUCATION ────────────────────────────────────────────────
+\section{Education}
+
+\entry{Sep 2023 – Jun 2027}
+  {MSc Engineering — Computational fluid dynamics, Structural mechanics, Prototyping}
+  {École nationale des ponts et chaussées (ENPC), Paris}
+  {\begin{itemize}
+    \item Structural mechanics and large structure conception
+    \item FEM applied to structural analysis, composite materials, metallurgy
+    \item Complete fluid dynamics module, HPC, combustion
+    \item \textbf{Tools:} OpenFOAM, StarCCM+, Abaqus, OpenSeesPy, gmsh
+    \item \textbf{Projects:} Immerged sea-glider simulation and prototype ; closed wing aircraft optimization and conception ; wooden suspension bridge design, verification and construction
+  \end{itemize}}
+
+\entry{Sep 2021 – Jun 2023}
+  {Bachelor — \textit{Classes préparatoires}}
+  {Lycée Kléber, Strasbourg}
+  {\begin{itemize}
+    \item Intensive programme in mathematics, physics and engineering sciences
+  \end{itemize}}
+
+% ── RESEARCH & PROJECTS ──────────────────────────────────────
+\section{Research \& Engineering Projects}
+
+\entry{2026}
+  {Complete CFD suite for axisymmetric studies}
+  {Personal project — OpenFOAM, gmsh, Python, C++}
+  {Aimed at providing a professionnal CFD solution without the usual costs and cumbersomeness, the project grew into a full suite, ranging from body geometry generation to large-scale post-processing, inclusing a homemade Gmsh fork. It is currently wired for very-high Reynolds drag and mechanical load studies on axisymmetric bodies.}
+
+\entry{2026}
+  {Structural FEM \& Eurocode Verification suite}
+  {Personal project — OpenSeesPy, Python}
+  {The project aims at providing a complete structural conception and verification suite, from geometry generation to Eurocode verification. It includes modal and buckling analysis, parameter optimization and visualization modules.}
+
+% ── PROFESSIONAL EXPERIENCE ──────────────────────────────────
+\section{Professional Experience}
+
+\entry{February 2026 – July 2026}
+  {Rail infrastructure engineering internship — TRACTEBEL FRANCE}
+  {CDGX Project, Paris}
+  {\begin{itemize}
+    \item [Concrete task and outcome]
+  \end{itemize}}
+
+\entry{July 2025 – January 2026}
+  {Digital Twin PM intern — SNCF Voyageurs}
+  {Industry & digital solutions, Paris}
+  {\begin{itemize}
+    \item Management of a 150k€ digital project inside the rolling stock maintenance industry
+    \item [Tool, methodology, or stakeholder context]
+  \end{itemize}}
+
+
+
+% ── TECHNICAL SKILLS ─────────────────────────────────────────
+\section{Technical Skills}
+
+\skillrow{CFD \& FEM}{OpenFOAM (RANS/URANS, pimpleFoam, simpleFoam), StarCCM+, Abaqus, OpenSeesPy}
+\skillrow{Meshing}{gmsh (custom C++ fork), Pointwise}
+\skillrow{HPC \& Dev}{MPI, OpenMP, AmgX, Linux/UNIX (10+ yrs), Git, Bash, CMake}
+\skillrow{Programming}{Python (NumPy, SciPy, Matplotlib), C++, MATLAB, \LaTeX}
+\skillrow{Post-processing}{ParaView, Tecplot, FFT/spectral analysis, VTK pipelines}
+
+% ── LANGUAGES ────────────────────────────────────────────────
+\section{Languages}
+
+\noindent\small
+\textbf{French} — Native \quad\textbf{·}\quad
+\textbf{English} — Proficient (C1) \quad\textbf{·}\quad
+\textbf{Italian} — Working proficiency (B2) \quad\textbf{·}\quad
+\textbf{German} — Working proficiency (B2)
+
+% ── ACTIVITIES & INVOLVEMENT ─────────────────────────────────
+\section{Activities \& Community Involvement}
+
+\entry{[Years]}
+  {Rescuer — French Red Cross}
+  {Volunteer first-aid responder}
+  {}
+
+\entry{[Years]}
+  {Director — Student Theatre / Ensemble}
+  {[Association name], [City]}
+  {\begin{itemize}
+    \item [Scale: number of members, productions, budget if notable]
+  \end{itemize}}
+
+\entry{[Years]}
+  {General Secretary — Student Association}
+  {[Association name], [University]}
+  {\begin{itemize}
+    \item [Responsibility or achievement worth mentioning]
+  \end{itemize}}
+
+% ── FOOTER ───────────────────────────────────────────────────
+\vfill
+\begin{center}
+  \small\textcolor{rule}{References and academic transcripts available upon request}
+\end{center}
+
+\end{document}
