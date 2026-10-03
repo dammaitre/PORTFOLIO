@@ -2,7 +2,7 @@
 %%  CV – Damien MAÎTRE  |  Research Internship Template
 %%  Engine : XeLaTeX  |  Font : Calibri (or fallback Linux)
 %% ============================================================
-\documentclass[a4paper,9pt]{article}
+\documentclass[a4paper,9pt]{extarticle}
 
 % ── Packages ─────────────────────────────────────────────────
 \usepackage[T1]{fontenc}
@@ -16,7 +16,7 @@
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{booktabs}
-\usepackage{microtype}
+\usepackage[expansion=false]{microtype}
 \setlength{\parskip}{1pt}
 \usepackage{multicol}
 
@@ -103,28 +103,28 @@
 {\color{accent}\hrule height 1.2pt}
 \vspace{4pt}
 
+% ── PROFILE ──────────────────────────────────────────────────
+\section{PROFILE}
+
+\small MSc engineering student specializing in fluid dynamics, structural mechanics and high performance computing, with hands-on experience across CFD, FEM and infrastructure engineering. Seeking an engineering internship in the energy industry, tackling physical problems, grid management or project finance, starting March 2027.
+
 % ── EDUCATION ────────────────────────────────────────────────
 \section{EDUCATION}
 
 \entry{September 2026 \newline February 2027}
-  {MSc Mobility \& Physics engineering}
+  {MSc Physics engineering}
   {Student exchange at Politecnico di Milano, Italy}
-  {\newline International economy, transport operation, high performance computing, infrastructure finance.}
+  {\newline International economics, Energy engineering, High performance computing, Infrastructure finance, Neural Networks.}
 
 \entry{September 2023 \newline June 2027}
   {MSc Engineering — Fluid dynamics, Structural mechanics, Prototyping}
   {École nationale des ponts et chaussées (ENPC), Paris}
-  {\newline Structural mechanics and large-structure design, FEM applied to structural analysis, composite materials, metallurgy, complete fluid dynamics module, HPC, combustion.
+  {\newline Structural mechanics and large-structure design, FEM applied to structural analysis, Composite materials, Metallurgy, Complete fluid dynamics module, HPC, Combustion.
   \begin{itemize}
     \item \textbf{Tools:} OpenFOAM, StarCCM+, Abaqus, OpenSeesPy, gmsh
     \item \textbf{Projects:} Underwater sea-glider simulation and prototype ; closed-wing aircraft design and optimization ; wooden suspension bridge design, verification and construction.
   \end{itemize}}
 
-\entry{September 2021 \newline June 2023}
-  {Bachelor — \textit{Classes préparatoires}}
-  {Lycée Kléber, Strasbourg}
-  {\newline Intensive programme in mathematics, physics and engineering sciences.
-  }
 
 % ── RESEARCH & PROJECTS ──────────────────────────────────────
 \section{RESEARCH PROJECTS}
@@ -143,7 +143,7 @@
 \section{PROFESSIONAL EXPERIENCE}
 
 \entry{February 2026 \newline July 2026}
-  {Rail infrastructure engineering internship — TRACTEBEL FRANCE}
+  {Infrastructure engineering internship — TRACTEBEL FRANCE}
   {CDG Express project, Saint-Ouen}
   {\begin{itemize}
     \item Construction compliance verification for the CDG Express, a 2.5B€ high-speed rail project,
@@ -153,7 +153,7 @@
   \end{itemize}}
 
 \entry{July 2025 \newline January 2026}
-  {Digital Twin PM intern — SNCF Voyageurs}
+  {Data \& Industry Project Manager — SNCF Voyageurs}
   {Industry \& digital solutions, Saint-Denis}
   {\begin{itemize}
     \item Management of a 150k€ digital project within the rolling stock maintenance industry,
