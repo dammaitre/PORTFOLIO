@@ -2,11 +2,12 @@
 %%  CV – Damien MAÎTRE  |  Research Internship Template
 %%  Engine : XeLaTeX  |  Font : Calibri (or fallback Linux)
 %% ============================================================
-\documentclass[a4paper,9pt]{article}
+\documentclass[a4paper,9pt]{extarticle}
 
 % ── Packages ─────────────────────────────────────────────────
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{lmodern}
 \usepackage[left=1.8cm, right=1.8cm, top=1.2cm, bottom=1.2cm]{geometry}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
@@ -77,7 +78,7 @@
   \noindent
   \begin{tabularx}{\linewidth}{@{}p{3.0cm}@{\hspace{4pt}}X@{}}
     \small\textbf{\textcolor{accent}{#1}} & \small #2
-  \end{tabularx}\vspace{1pt}
+  \end{tabularx}\par\vspace{1pt}
 }
 
 %% ============================================================
