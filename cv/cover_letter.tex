@@ -1,0 +1,86 @@
+%% ============================================================
+%%  Lettera di presentazione – Damien MAÎTRE  |  Energy internship
+%%  Same look & feel as main.tex (CV)
+%% ============================================================
+\documentclass[a4paper,11pt]{extarticle}
+
+% ── Packages ─────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\babelprovide[import, main]{italian}
+\usepackage[left=2.2cm, right=2.2cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage[expansion=false]{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% ── Colours (identical to CV) ────────────────────────────────
+\definecolor{accent}{HTML}{1A3C6E}
+\definecolor{light}{HTML}{4A7CB5}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rule}{HTML}{CCCCCC}
+
+\hypersetup{colorlinks=true, urlcolor=light, linkcolor=accent}
+\pagestyle{empty}
+
+% ── Fill these in for each application ───────────────────────
+\newcommand{\azienda}{EDISON}
+\newcommand{\posizione}{Data scientist forecasting}
+\newcommand{\ambito}{Trading / Portfolio management}
+
+%% ============================================================
+\begin{document}
+
+% ── HEADER (same as CV) ──────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{accent} Damien MAÎTRE}\\[2pt]
+  {\normalsize\textit{\textcolor{muted}{Studente di Ingegneria (MSc) — CFD, HPC \& Metodi Numerici}}}\\[4pt]
+  \small
+  \textcolor{muted}{
+    \faEnvelope\ \href{mailto:damien.maitre@mail.polimi.it}{damien.maitre@mail.polimi.it}
+    \quad\textbf{·}\quad
+    \faPhone\ +33 7 83 41 50 90
+    \\[1pt]
+    \faLinkedin\ \href{https://linkedin.com/in/damienmaitre}{linkedin.com/in/damienmaitre}
+    \quad\textbf{·}\quad
+    \faGithub\ \href{https://github.com/dammaitre}{github.com/dammaitre}
+  }
+\end{center}
+
+\vspace{2pt}
+{\color{accent}\hrule height 1.2pt}
+\vspace{10pt}
+
+% ── RECIPIENT & DATE ─────────────────────────────────────────
+\begin{flushright}
+  \textbf{\azienda}\\
+\end{flushright}
+
+\vspace{4pt}
+Milano, 6 ottobre 2026
+
+\vspace{4pt}
+{\color{accent}\textbf{Oggetto: Candidatura per un tirocinio da fine studi a partire da marzo 2027}}
+
+\vspace{4pt}
+Gentile Signora, Gentile Signore,
+
+sono uno studente di ingegneria all'École nationale des ponts et chaussées (ENPC) di Parigi, attualmente in scambio al Politecnico di Milano, dove seguo corsi di ingegneria energetica, economia internazionale, finanza delle infrastrutture e calcolo ad alte prestazioni. Vi scrivo per proporre la mia candidatura per un tirocinio di dine studi presso \azienda{}, a partire da marzo 2027. Cerco una posizione dove portei condurre studi di carattere tecnico, scientifico o economico sui vostri mercati.
+
+La mia formazione unisce la meccanica dei fluidi, la meccanica delle strutture e il calcolo numerico. Ho sviluppato in autonomia una suite di simulazione CFD basata su OpenFOAM e Gmsh, e strumenti di verifica strutturale secondo gli Eurocodici con OpenSeesPy. Programmo in Python e C++ da oltre dieci anni e ho lavorato su numerosi progetti di analisi dati e di machine learning. Queste competenze mi permettono di affrontare problemi fisici complessi, dalla modellazione di un impianto alla gestione e all'ottimizzazione di una rete.
+
+Ho inoltre maturato due esperienze professionali significative. Presso \textbf{Tractebel}, ho partecipato al progetto CDG Express, una linea ferroviaria da 2,5 miliardi di euro, occupandomi di verifiche strutturali, della revisione di relazioni di calcolo e della redazione di rapporti tecnici per il cliente. Presso \textbf{SNCF Voyageurs}, ho gestito un progetto digitale da 150.000~€ nella manutenzione del materiale rotabile, coordinando 15 artisti 3D in tutta la Francia e seguendo l'intero processo di gara e di acquisto. Ho così imparato a lavorare con rigore tecnico, ma anche a comunicare con interlocutori diversi e a rispettare budget e scadenze.
+
+Al di fuori degli studi, sono soccorritore volontario della Croce Rossa francese e ho diretto un musical studentesco con 75 artisti e un budget di 4.500~€. Queste attività mi hanno insegnato a mantenere la calma sotto pressione e a guidare una squadra verso un obiettivo comune. Parlo francese, inglese (C1), tedesco (B2) e italiano (B1), lingua che continuo a migliorare ogni giorno a Milano.
+
+Sarei felice di poter approfondire la mia motivazione durante un colloquio. Ringraziandovi per l'attenzione, vi porgo i miei più cordiali saluti.
+
+\vspace{14pt}
+\begin{flushright}
+  \textbf{\color{accent}Damien MAÎTRE}
+\end{flushright}
+
+\end{document}
