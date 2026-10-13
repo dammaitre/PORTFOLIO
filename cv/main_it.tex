@@ -1,0 +1,210 @@
+%% ============================================================
+%%  CV – Damien MAÎTRE  |  Versione italiana
+%%  Engine : XeLaTeX  |  Font : Calibri (or fallback Linux)
+%% ============================================================
+\documentclass[a4paper,9pt]{extarticle}
+
+% ── Packages ─────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[left=1.8cm, right=1.8cm, top=1.2cm, bottom=1.2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\setlength{\parskip}{1pt}
+\usepackage{multicol}
+
+% ── Colours ──────────────────────────────────────────────────
+\definecolor{accent}{HTML}{1A3C6E}
+\definecolor{light}{HTML}{4A7CB5}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rule}{HTML}{CCCCCC}
+
+% ── Hyperlinks ───────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  urlcolor=light,
+  linkcolor=accent
+}
+
+% ── No page number ───────────────────────────────────────────
+\pagestyle{empty}
+
+% ── Section titles ───────────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0em}{}
+  [\vspace{1pt}\color{rule}\hrule\vspace{2pt}]
+
+\titlespacing{\section}{0pt}{5pt}{2pt}
+
+% ── List settings ────────────────────────────────────────────
+\setlist[itemize]{
+  leftmargin=1.4em,
+  itemsep=0pt,
+  topsep=1pt,
+  parsep=0pt
+}
+\renewcommand{\labelitemi}{\textcolor{light}{\small$\bullet$}}
+
+% ── Entry command: \entry{dates}{title}{subtitle}{bullets} ───
+\newcommand{\entry}[4]{%
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}p{2.6cm}@{\hspace{6pt}}X@{}}
+    \small\textcolor{muted}{#1} &
+    \textbf{#2} \newline
+    \textit{\small\textcolor{muted}{#3}}
+    #4
+  \end{tabularx}
+  \vspace{1pt}
+}
+
+\newcommand{\wideentry}[3]{%
+  \noindent\textbf{#1}\\
+  \textit{\small\textcolor{muted}{#2}}\\
+  \small #3\par
+  \vspace{1pt}
+}
+
+% ── Skill row: \skillrow{category}{items} ────────────────────
+\newcommand{\skillrow}[2]{%
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}p{3.0cm}@{\hspace{4pt}}X@{}}
+    \small\textbf{\textcolor{accent}{#1}} & \small #2
+  \end{tabularx}\par\vspace{1pt}
+}
+
+%% ============================================================
+\begin{document}
+
+% ── NAME & CONTACT ───────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{accent} Damien MAÎTRE}\\[2pt]
+  {\normalsize\textit{\textcolor{muted}{Laurea Magistrale in Mobility Engineering — Infrastrutture, Industria \& Metodi Numerici}}}\\[4pt]
+  \small
+  \textcolor{muted}{
+    \faEnvelope\ \href{mailto:damien.maitre@enpc.fr}{damien.maitre@enpc.fr}
+    \quad\textbf{·}\quad
+    \faPhone\ +33 7 83 41 50 90
+    \quad\textbf{·}\quad
+    \faLinkedin\ \href{https://linkedin.com/in/damienmaitre}{linkedin.com/in/damienmaitre}
+    \quad\textbf{·}\quad
+    \faGithub\ \href{https://github.com/dammaitre}{github.com/dammaitre}
+  }
+\end{center}
+
+\vspace{2pt}
+{\color{accent}\hrule height 1.2pt}
+\vspace{4pt}
+
+% ── ABOUT ME ─────────────────────────────────────────────────
+\section{PROFILO}
+
+\noindent\small
+Sono uno studente all'ultimo anno di ingegneria presso l'École nationale des ponts et chaussées e il Politecnico di Milano, con esperienza concreta nel settore ferroviario. Sono alla ricerca di un tirocinio di fine studi nell'ambito della gestione o progettazione di progetti infrastrutturali, dell'ingegneria delle infrastrutture, oppure della progettazione, gestione operativa o ricerca nei servizi ferroviari e di mobilità. Attualmente vivo a Milano e sono disponibile a iniziare a febbraio o marzo 2027. \par
+
+% ── EDUCATION ────────────────────────────────────────────────
+\section{FORMAZIONE}
+
+\entry{settembre 2026 \newline febbraio 2027}
+  {Laurea Magistrale in Mobility Engineering}
+  {Programma di scambio presso il Politecnico di Milano}
+  {\newline Economia internazionale, esercizio dei sistemi di trasporto, calcolo ad alte prestazioni, finanza delle infrastrutture \& gestione delle infrastrutture.}
+
+\entry{settembre 2023 \newline giugno 2027}
+  {Laurea Magistrale in Ingegneria — Fluidodinamica, Meccanica delle strutture, Prototipazione}
+  {École nationale des ponts et chaussées (ENPC), Parigi}
+  {\newline Meccanica delle strutture e progettazione di grandi strutture, metodo agli elementi finiti (FEM) applicato all'analisi strutturale, materiali compositi, metallurgia, modulo completo di fluidodinamica, HPC, combustione.
+  \begin{itemize}
+    \item \textbf{Strumenti:} OpenFOAM, StarCCM+, Abaqus, OpenSeesPy, gmsh
+    \item \textbf{Progetti:} simulazione e prototipo di un aliante subacqueo (sea-glider); progettazione e ottimizzazione di un velivolo ad ala chiusa; progettazione, verifica e costruzione di un ponte sospeso in legno.
+  \end{itemize}}
+
+\entry{settembre 2021 \newline giugno 2023}
+  {Laurea triennale — \textit{Classes préparatoires}}
+  {Lycée Kléber, Strasburgo}
+  {\newline Programma intensivo di matematica, fisica e scienze dell'ingegneria.
+  }
+
+% ── RESEARCH & PROJECTS ──────────────────────────────────────
+\section{PROGETTI DI RICERCA}
+
+\wideentry
+  {Suite CFD completa pensata per sviluppatori}
+  {Progetto personale — OpenFOAM, Gmsh (fork), Python, C++}
+  {Studi dei carichi aerodinamici aperti e di facile utilizzo, ottimizzati per problemi assialsimmetrici a numeri di $\mathcal{R}e$ molto elevati.}
+
+\wideentry
+  {Suite di analisi strutturale FEM \& verifiche secondo gli Eurocodici}
+  {Progetto personale — OpenSeesPy, Python}
+  {Strumenti completi di progettazione, visualizzazione e verifica strutturale.}
+
+% ── PROFESSIONAL EXPERIENCE ──────────────────────────────────
+\section{ESPERIENZA PROFESSIONALE}
+
+\entry{febbraio 2026 \newline luglio 2026}
+  {Tirocinio in ingegneria delle infrastrutture ferroviarie — TRACTEBEL FRANCE}
+  {Progetto CDG Express, Saint-Ouen}
+  {\begin{itemize}
+    \item Verifica della conformità costruttiva del CDG Express, progetto ferroviario ad alta velocità da 2,5 miliardi di euro;
+    \item Analisi strutturale e verifiche secondo gli Eurocodici di opere di ingegneria civile;
+    \item Revisione di relazioni di calcolo strutturale e di rilievi as-built in cantiere;
+    \item Redazione di relazioni tecniche e raccomandazioni per il committente.
+  \end{itemize}}
+
+\entry{luglio 2025 \newline gennaio 2026}
+  {Tirocinio Project Manager Digital Twin — SNCF Voyageurs}
+  {Industria \& soluzioni digitali, Saint-Denis}
+  {\begin{itemize}
+    \item Gestione di un progetto digitale da 150k€ nell'ambito della manutenzione del materiale rotabile;
+    \item Coordinamento di 15 artisti 3D presso gli impianti di manutenzione di tutta la Francia;
+    \item Responsabilità del progetto e reporting ai clienti interni (direttori di impianto, Direttore Industriale, ecc.);
+    \item Gestione completa del processo di approvvigionamento e di gara.
+  \end{itemize}}
+
+
+
+% ── TECHNICAL SKILLS ─────────────────────────────────────────
+\section{COMPETENZE TECNICHE}
+
+\skillrow{CFD \& FEM}{OpenFOAM, StarCCM+, Abaqus, OpenSeesPy, Gmsh}
+\skillrow{Programmazione}{Oltre 10 anni di esperienza con Python, C++ e ambienti UNIX}
+
+% ── LANGUAGES ────────────────────────────────────────────────
+\section{LINGUE}
+
+\noindent\small
+\textbf{Francese} — Madrelingua \quad\textbf{·}\quad
+\textbf{Inglese} — Avanzato (C1) \quad\textbf{·}\quad
+\textbf{Italiano} — Buono (B2) \quad\textbf{·}\quad
+\textbf{Tedesco} — Buono (B2)
+
+% ── ACTIVITIES & INVOLVEMENT ─────────────────────────────────
+\section{ATTIVITÀ \& IMPEGNO ASSOCIATIVO}
+
+\wideentry
+  {Soccorritore — Croce Rossa Francese}
+  {Soccorritore volontario}
+  {Primo soccorso durante eventi pubblici (maratone, festival, Paris-Plage) e servizio di reperibilità con i Vigili del Fuoco di Parigi.}
+
+\wideentry
+  {Direttore — Compagnia studentesca di musical}
+  {BridgeWay Comédie Musicale, Champs-sur-Marne}
+  {Direzione di una compagnia di 75 artisti e di un team creativo e tecnico di 12 persone, con un budget di 4,5k€.}
+
+\wideentry
+  {Segretario Generale — Associazione studentesca}
+  {Union des Élèves de l'École nationale des ponts et chaussées}
+  {Gestione di un team di 15 persone per eventi professionali e sociali con oltre 1.000 partecipanti; gestione amministrativa di un'associazione senza scopo di lucro di diritto francese (Loi 1901).}
+
+\vfill
+\noindent{\scriptsize\textcolor{muted}{Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del Regolamento UE 2016/679 (GDPR).}}
+
+\end{document}
