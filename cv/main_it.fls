@@ -3,7 +3,7 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT main_it.tex
+INPUT /mnt/DAMIEN/PORTFOLIO/cv/main_it.tex
 OUTPUT main_it.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
