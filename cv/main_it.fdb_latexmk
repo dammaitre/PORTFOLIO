@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1791874473.18781 "/mnt/DAMIEN/PORTFOLIO/cv/main_it.tex" "main_it.pdf" "main_it" 1791874473.73018 0
+["pdflatex"] 1792917019.47284 "/mnt/DAMIEN/PORTFOLIO/cv/main_it.tex" "main_it.pdf" "main_it" 1792917019.93074 0
   "/etc/texmf/web2c/texmf.cnf" 1791749496.49556 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791798341 129443 7c73ed4d149c1abd8dfbd8c63d5c6159 ""
   "/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5brands0.enc" 1789928532.00027 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -16,7 +16,7 @@
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1789928531.99875 1206 b35c804e364d46e802702be118632c48 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree1.fd" 1789928531.99883 980 1b42613a5245ed252c04030af746d737 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree2.fd" 1789928531.99887 980 38ce61da47d1ba16e56a2e312b56a515 ""
-  "/mnt/DAMIEN/PORTFOLIO/cv/main_it.tex" 1791874473.0136 9907 50e5b7fe1602c1d716812bfa489d5e51 ""
+  "/mnt/DAMIEN/PORTFOLIO/cv/main_it.tex" 1792917019.29412 9913 b4e3ae9e8e5c12f12578ef5fb499fcbf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm" 1136768653 3584 d3d8ac8b25ca19c0a40b86a5db1e8ccc ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -119,9 +119,9 @@
   "/usr/share/texmf/tex/latex/lm/ts1lmr.fd" 1616454256 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1791749730 2242871 01f22ca1e884404e531d64a835300d2d ""
-  "main_it.aux" 1791874473.65094 958 ef6f2bec695df23a6c38021749150dc6 "pdflatex"
-  "main_it.out" 1791874473.65162 903 7dcd27fe466705cf977dfb8cfc9cf108 "pdflatex"
-  "main_it.tex" 1791874473.0136 9907 50e5b7fe1602c1d716812bfa489d5e51 ""
+  "main_it.aux" 1792917019.86325 958 ef6f2bec695df23a6c38021749150dc6 "pdflatex"
+  "main_it.out" 1792917019.86409 903 7dcd27fe466705cf977dfb8cfc9cf108 "pdflatex"
+  "main_it.tex" 1792917019.29412 9913 b4e3ae9e8e5c12f12578ef5fb499fcbf ""
   (generated)
   "main_it.aux"
   "main_it.log"
