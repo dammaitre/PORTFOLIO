@@ -128,12 +128,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-INPUT ./cover_letter.out
-INPUT ./cover_letter.out
-INPUT cover_letter.out
-INPUT cover_letter.out
-INPUT ./cover_letter.out
-INPUT ./cover_letter.out
 OUTPUT cover_letter.out
 OUTPUT cover_letter.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg

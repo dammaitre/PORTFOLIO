@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  12 OCT 2026 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  25 OCT 2026 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -313,7 +313,6 @@ LaTeX Font Info:    ... okay on input line 35.
 \everyMPtoPDFconversion=\toks24
 )
 Package hyperref Info: Link coloring ON on input line 35.
- (./cover_letter.out) (./cover_letter.out)
 \@outlinefile=\write3
 \openout3 = `cover_letter.out'.
 
@@ -347,10 +346,15 @@ Overfull \hbox (13.81241pt too wide) in paragraph at lines 71--72
 []\T1/cmr/m/n/10.95 sono uno studente di ingegneria all'École nationale des ponts et chaussées (ENPC) di Parigi, attualmente
  []
 
-
-Overfull \hbox (1.57547pt too wide) in paragraph at lines 71--72
-\T1/cmr/m/n/10.95 in scambio al Politecnico di Milano, dove seguo corsi di ingegneria energetica, economia internazionale,
- []
+/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex:73: Misplaced alignment tab character &.
+l.73 ...turale secondo gli Eurocodici con Abaqus &
+                                                   OpenSeesPy. Programmo in ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 [1
 
@@ -359,21 +363,28 @@ Overfull \hbox (1.57547pt too wide) in paragraph at lines 71--72
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `cover_letter.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `cover_letter.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cover_letter.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15502 strings out of 469485
- 269322 string characters out of 5468802
- 719709 words of memory out of 5000000
- 44032 multiletter control sequences out of 15000+600000
+ 15497 strings out of 469485
+ 269225 string characters out of 5468802
+ 719640 words of memory out of 5000000
+ 44031 multiletter control sequences out of 15000+600000
  634964 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,5n,79p,1034b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Brands-Regular.pfb></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Free-Solid.pfb>
-Output written on cover_letter.pdf (1 page, 71547 bytes).
+Output written on cover_letter.pdf (1 page, 71716 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  4609 words of extra memory for PDF output out of 10000 (max. 10000000)
