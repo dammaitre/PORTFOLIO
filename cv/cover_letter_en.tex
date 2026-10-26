@@ -1,0 +1,85 @@
+%% ============================================================
+%%  Cover letter – Damien MAÎTRE  |  Energy internship
+%%  Same look & feel as main.tex (CV)
+%% ============================================================
+\documentclass[a4paper,11pt]{extarticle}
+
+% ── Packages ─────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[left=2.2cm, right=2.2cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage[expansion=false]{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% ── Colours (identical to CV) ────────────────────────────────
+\definecolor{accent}{HTML}{1A3C6E}
+\definecolor{light}{HTML}{4A7CB5}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rule}{HTML}{CCCCCC}
+
+\hypersetup{colorlinks=true, urlcolor=light, linkcolor=accent}
+\pagestyle{empty}
+
+% ── Fill these in for each application ───────────────────────
+\newcommand{\company}{ATM S.p.A}
+
+%% ============================================================
+\begin{document}
+
+% ── HEADER (same as CV) ──────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{accent} Damien MAÎTRE}\\[2pt]
+  {\normalsize\textit{\textcolor{muted}{Engineering Student (MSc) — Infrastructure, Railways \& Numerical Methods}}}\\[4pt]
+  \small
+  \textcolor{muted}{
+    \faEnvelope\ \href{mailto:damien.maitre@mail.polimi.it}{damien.maitre@mail.polimi.it}
+    \quad\textbf{·}\quad
+    \faPhone\ +33 7 83 41 50 90
+    \\[1pt]
+    \faLinkedin\ \href{https://linkedin.com/in/damienmaitre}{linkedin.com/in/damienmaitre}
+    \quad\textbf{·}\quad
+    \faGithub\ \href{https://github.com/dammaitre}{github.com/dammaitre}
+  }
+\end{center}
+
+\vspace{2pt}
+{\color{accent}\hrule height 1.2pt}
+\vspace{10pt}
+
+% ── RECIPIENT & DATE ─────────────────────────────────────────
+\begin{flushright}
+  \textbf{\company}\\
+\end{flushright}
+
+\vspace{4pt}
+Milan, 6 October 2026
+
+\vspace{4pt}
+{\color{accent}\textbf{Subject: Application for an end-of-studies internship starting March 2027}}
+
+\vspace{4pt}
+Dear Sir or Madam,
+
+I am an engineering student at the École nationale des ponts et chaussées (ENPC) in Paris, currently on exchange at Politecnico di Milano, where I am taking courses in energy engineering, international economics, infrastructure finance and high-performance computing. I am writing to apply for an end-of-studies internship at \company{}, starting in March 2027. I am looking for a position in railway operations, rolling stock maintenance or infrastructure works, where I could carry out technical or economic studies.
+
+My background combines mechanics, structural analysis and design. I have independently developed a CFD simulation suite based on OpenFOAM and Gmsh, as well as Eurocode-compliant structural verification tools using OpenSeesPy. I have been programming in Python and C++ for over ten years and have worked on numerous data analysis and machine learning projects. These skills allow me to tackle complex physical problems, from modelling a facility to managing and optimising a network.
+
+I have also gained two significant professional experiences. At \textbf{Tractebel}, I took part in the CDG Express project, a €2.5 billion railway line, where I carried out structural verifications, reviewed design calculation reports and wrote technical reports for the client. At \textbf{SNCF Voyageurs}, I managed a €150,000 digital project in rolling stock maintenance, coordinating 15 3D artists across France and overseeing the entire tendering and procurement process. These experiences taught me to work with technical rigour, but also to communicate with a wide range of stakeholders and to meet budgets and deadlines.
+
+Outside my studies, I am a volunteer first aider with the French Red Cross, and I directed a student musical with 75 performers and a €4,500 budget. These activities taught me to stay calm under pressure and to lead a team towards a common goal. I speak French, English (C1), German (B2) and Italian (B1), which I keep improving every day in Milan.
+
+I would be delighted to discuss my motivation further in an interview. Thank you for your consideration.
+
+Yours faithfully,
+
+\vspace{14pt}
+\begin{flushright}
+  \textbf{\color{accent}Damien MAÎTRE}
+\end{flushright}
+
+\end{document}
