@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793002445.02961 "/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex" "cover_letter.pdf" "cover_letter" 1793002445.41912 0
+["pdflatex"] 1793391592.34588 "/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex" "cover_letter.pdf" "cover_letter" 1793391592.76063 0
   "/etc/texmf/web2c/texmf.cnf" 1791749496.49556 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791798341 129443 7c73ed4d149c1abd8dfbd8c63d5c6159 ""
   "/home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk" 1791794172.76102 28952 a040500f22f32d3736cfa35040848213 ""
@@ -23,7 +23,7 @@
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1789928531.99875 1206 b35c804e364d46e802702be118632c48 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree1.fd" 1789928531.99883 980 1b42613a5245ed252c04030af746d737 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree2.fd" 1789928531.99887 980 38ce61da47d1ba16e56a2e312b56a515 ""
-  "/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex" 1793002444.85507 4995 9ed39a7c7877d51feb6a63b78500cccd ""
+  "/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex" 1793391592.15314 4954 d63f85a4fedc61c214bc72243897d8e5 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -90,9 +90,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1791749730 2242871 01f22ca1e884404e531d64a835300d2d ""
-  "cover_letter.aux" 1793002445.36297 280 ff7d85065e1d9ab7be76688bf6d26b50 "pdflatex"
-  "cover_letter.out" 1793002445.31932 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cover_letter.tex" 1793002444.85507 4995 9ed39a7c7877d51feb6a63b78500cccd ""
+  "cover_letter.aux" 1793391592.70089 280 ff7d85065e1d9ab7be76688bf6d26b50 "pdflatex"
+  "cover_letter.out" 1793391592.65122 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cover_letter.tex" 1793391592.15314 4954 d63f85a4fedc61c214bc72243897d8e5 ""
   (generated)
   "cover_letter.aux"
   "cover_letter.log"
