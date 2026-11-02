@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1791874006.27702 "/mnt/DAMIEN/PORTFOLIO/cv/main.tex" "main.pdf" "main" 1791874006.67483 0
+["pdflatex"] 1793618740.67063 "/mnt/DAMIEN/PORTFOLIO/cv/main.tex" "main.pdf" "main" 1793618741.13033 0
   "/etc/texmf/web2c/texmf.cnf" 1791749496.49556 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791798341 129443 7c73ed4d149c1abd8dfbd8c63d5c6159 ""
   "/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5brands0.enc" 1789928532.00027 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -16,7 +16,7 @@
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1789928531.99875 1206 b35c804e364d46e802702be118632c48 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree1.fd" 1789928531.99883 980 1b42613a5245ed252c04030af746d737 ""
   "/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree2.fd" 1789928531.99887 980 38ce61da47d1ba16e56a2e312b56a515 ""
-  "/mnt/DAMIEN/PORTFOLIO/cv/main.tex" 1791874006.11159 9235 6f4bf8ad073ba73ed1903c62424aebaf ""
+  "/mnt/DAMIEN/PORTFOLIO/cv/main.tex" 1793618740.49454 9316 75e29c173cc68f0c81ee9ea37265faef ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm" 1136768653 3584 d3d8ac8b25ca19c0a40b86a5db1e8ccc ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -117,9 +117,9 @@
   "/usr/share/texmf/tex/latex/lm/ts1lmr.fd" 1616454256 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1791749730 2242871 01f22ca1e884404e531d64a835300d2d ""
-  "main.aux" 1791874006.61628 958 6187851b959ac176a07f097fd9fa033d "pdflatex"
-  "main.out" 1791874006.61681 905 9b993d846ff95a324cd73925d60dbca3 "pdflatex"
-  "main.tex" 1791874006.11159 9235 6f4bf8ad073ba73ed1903c62424aebaf ""
+  "main.aux" 1793618741.0587 958 6187851b959ac176a07f097fd9fa033d "pdflatex"
+  "main.out" 1793618741.05931 905 9b993d846ff95a324cd73925d60dbca3 "pdflatex"
+  "main.tex" 1793618740.49454 9316 75e29c173cc68f0c81ee9ea37265faef ""
   (generated)
   "main.aux"
   "main.log"
