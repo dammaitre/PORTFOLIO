@@ -1,0 +1,85 @@
+%% ============================================================
+%%  Lettera di presentazione – Damien MAÎTRE  |  Energy internship
+%%  Same look & feel as main.tex (CV)
+%% ============================================================
+\documentclass[a4paper,11pt]{extarticle}
+
+% ── Packages ─────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\babelprovide[import, main]{italian}
+\usepackage[left=2.2cm, right=2.2cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage[expansion=false]{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% ── Colours (identical to CV) ────────────────────────────────
+\definecolor{accent}{HTML}{1A3C6E}
+\definecolor{light}{HTML}{4A7CB5}
+\definecolor{muted}{HTML}{555555}
+\definecolor{rule}{HTML}{CCCCCC}
+
+\hypersetup{colorlinks=true, urlcolor=light, linkcolor=accent}
+\pagestyle{empty}
+
+% ── Fill these in for each application ───────────────────────
+\newcommand{\azienda}{ENGIE Italia SpA}
+\newcommand{\posizione}{Data scientist forecasting}
+\newcommand{\ambito}{Trading / Portfolio management}
+
+%% ============================================================
+\begin{document}
+
+% ── HEADER (same as CV) ──────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries\color{accent} Damien MAÎTRE}\\[2pt]
+  {\normalsize\textit{\textcolor{muted}{Studente di Ingegneria (MSc) — CFD, HPC \& Metodi Numerici}}}\\[4pt]
+  \small
+  \textcolor{muted}{
+    \faEnvelope\ \href{mailto:damien.maitre@mail.polimi.it}{damien.maitre@mail.polimi.it}
+    \quad\textbf{·}\quad
+    \faPhone\ +33 7 83 41 50 90
+    \\[1pt]
+    \faLinkedin\ \href{https://linkedin.com/in/damienmaitre}{linkedin.com/in/damienmaitre}
+    \quad\textbf{·}\quad
+    \faGithub\ \href{https://github.com/dammaitre}{github.com/dammaitre}
+  }
+\end{center}
+
+\vspace{2pt}
+{\color{accent}\hrule height 1.2pt}
+\vspace{10pt}
+
+% ── RECIPIENT & DATE ─────────────────────────────────────────
+\begin{flushright}
+  \textbf{\azienda}\\
+\end{flushright}
+
+\vspace{4pt}
+Milano, 6 ottobre 2026
+
+\vspace{4pt}
+{\color{accent}\textbf{Oggetto: Candidatura per un tirocinio da fine studi a partire da marzo 2027}}
+
+\vspace{4pt}
+Gentile Signora, Gentile Signore,
+
+Sono uno studente di ingegneria all' École nationale des ponts et chaussées di Parigi, una scuola d'ingegneria di primo piano, e presso Politecnico di Milano per 6 mesi. Vi scrivo per proporre la mia candidatura per un tirocinio di fine studi di carattere tecnico, scientifico o gestionale presso la vostra azienda, a partire da marzo 2027.
+
+Le mie due esperienze precedenti e la mia formazione mi consentono di ottenere risultati per il vostro gruppo. La mia scuola unisce la meccanica delle strutture, la progettazione e l'ingegneria energetica. Ho avuto la fortuna di portare avanti diversi progetti di data science, e uso Python da più di 10 anni. 
+
+Ho avuto la fortuna di lavorare per 6 mesi nel settore dell'ingegneria delle infrastrutture (presso il responsabile o consulente tecnico) presso TRACTEBEL Engineering, nell'ambito del progetto CDG Express. Ho putato di occuparmi di un'ampia gamma di problematiche, che andavano dagli aspetti contrattuali con il committente alle ispezioni in cantiere, passando per i calcoli strutturali. È stata un'esperianza che mi ha lasciato il segno e che mi ha convinto a intraprendere una carriera nell'ingegneria delle infrastrutture.
+
+Oggi, il mio italiano sarebbe B2, e lo miglioro ogni giorni. Saro libero per iniziare alle Marzo 2027, e sarei felice di potere approfondire la mia motivazione durante un colloquio.
+
+Ringraziandovi per l'attenzione, vi porgo i miei più cordiali saluti.
+\vspace{14pt}
+\begin{flushright}
+  \textbf{\color{accent}Damien MAÎTRE}
+\end{flushright}
+
+\end{document}
