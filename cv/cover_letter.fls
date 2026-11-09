@@ -158,7 +158,6 @@ INPUT /home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /home/damien-maitre/texmf/fonts/tfm/fontawesome5/fa5brands0.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free1.enc
 INPUT /home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free2.enc
@@ -166,7 +165,6 @@ INPUT /home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5brands0.enc
 INPUT cover_letter.aux
 INPUT ./cover_letter.out
 INPUT ./cover_letter.out
-INPUT /home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk
 INPUT /home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk
 INPUT /home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk
 INPUT /home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk

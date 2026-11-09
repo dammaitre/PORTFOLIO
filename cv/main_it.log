@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  25 OCT 2026 09:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  4 NOV 2026 18:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,15 +496,15 @@ Package rerunfilecheck Info: File `main_it.out' has not changed.
 (rerunfilecheck)             Checksum: 7DCD27FE466705CF977DFB8CFC9CF108;903.
  ) 
 Here is how much of TeX's memory you used:
- 15579 strings out of 469485
- 268037 string characters out of 5468802
+ 15585 strings out of 469485
+ 268097 string characters out of 5468802
  724355 words of memory out of 5000000
  43979 multiletter control sequences out of 15000+600000
- 681689 words of font info for 106 fonts, out of 8000000 for 9000
+ 681941 words of font info for 109 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,79p,1029b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Brands-Regular.pfb></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main_it.pdf (1 page, 227225 bytes).
+Output written on main_it.pdf (1 page, 226802 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
