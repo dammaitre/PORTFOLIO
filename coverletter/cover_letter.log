@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  2 NOV 2026 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.11)  12 NOV 2026 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex
-(/mnt/DAMIEN/PORTFOLIO/cv/cover_letter.tex
+**/mnt/DAMIEN/PORTFOLIO/coverletter/cover_letter.tex
+(/mnt/DAMIEN/PORTFOLIO/coverletter/cover_letter.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -33,7 +33,41 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \bibindent=\dimen149
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -61,9 +95,9 @@ Language: nil 2026/01/18 v26.1 Nil language
 \l@nil=\language6
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/it/babel-italian.tex)
 Package babel Info: Importing data for italian
-(babel)             from babel-it.ini. Reported on input line 11.
+(babel)             from babel-it.ini. Reported on input line 13.
 Package babel Info: Hyphen rules for 'italian' set to \l@nil
-(babel)             (\language6). Reported on input line 11.
+(babel)             (\language6). Reported on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -241,28 +275,31 @@ File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
- (./cover_letter.aux)
+Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 37.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (./cover_letter.aux)
 \openout1 = `cover_letter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -312,18 +349,18 @@ LaTeX Font Info:    ... okay on input line 33.
 \makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks24
 )
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 37.
  (./cover_letter.out) (./cover_letter.out)
 \@outlinefile=\write3
 \openout3 = `cover_letter.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 33.
-Package microtype Info: Applying patch `item' on input line 33.
-Package microtype Info: Applying patch `toc' on input line 33.
-Package microtype Info: Applying patch `eqnum' on input line 33.
-Package microtype Info: Applying patch `footnote' on input line 33.
-Package microtype Info: Applying patch `verbatim' on input line 33.
-LaTeX Info: Redefining \microtypesetup on input line 33.
+LaTeX Info: Redefining \microtypecontext on input line 37.
+Package microtype Info: Applying patch `item' on input line 37.
+Package microtype Info: Applying patch `toc' on input line 37.
+Package microtype Info: Applying patch `eqnum' on input line 37.
+Package microtype Info: Applying patch `footnote' on input line 37.
+Package microtype Info: Applying patch `verbatim' on input line 37.
+LaTeX Info: Redefining \microtypesetup on input line 37.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -334,22 +371,21 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 48.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 52.
  (/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 48.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 52.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 52.
  (/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 48.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 52.
  (/home/damien-maitre/texmf/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 48.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 52.
+ [1
 
-Overfull \hbox (13.81241pt too wide) in paragraph at lines 69--70
-[]\T1/cmr/m/n/10.95 sono uno studente di ingegneria all'École nationale des ponts et chaussées (ENPC) di Parigi, attualmente
- []
-
-[1
-
-{/home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free1.enc}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free2.enc}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5brands0.enc}] (./cover_letter.aux)
+{/home/damien-maitre/.texlive2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5free2.enc}{/home/damien-maitre/texmf/fonts/enc/fontawesome5/fa5brands0.enc}] (./cover_letter.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -358,18 +394,18 @@ Package rerunfilecheck Info: File `cover_letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15500 strings out of 469485
- 269307 string characters out of 5468802
- 719649 words of memory out of 5000000
- 44030 multiletter control sequences out of 15000+600000
- 634964 words of font info for 53 fonts, out of 8000000 for 9000
+ 15603 strings out of 469485
+ 271892 string characters out of 5468802
+ 719457 words of memory out of 5000000
+ 44121 multiletter control sequences out of 15000+600000
+ 652347 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,5n,79p,1034b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/damien-maitre/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Brands-Regular.pfb></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Free-Solid.pfb>
-Output written on cover_letter.pdf (1 page, 71547 bytes).
+ 75i,5n,79p,1043b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Brands-Regular.pfb></home/damien-maitre/texmf/fonts/type1/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
+Output written on cover_letter.pdf (1 page, 123778 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 4609 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4097 words of extra memory for PDF output out of 10000 (max. 10000000)
 

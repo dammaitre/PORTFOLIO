@@ -6,6 +6,8 @@
 
 % ── Packages ─────────────────────────────────────────────────
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}            % vector (Type 1) fonts instead of bitmap Type 3
+\input{glyphtounicode}\pdfgentounicode=1  % Unicode mapping for copy-paste / parsers
 \usepackage[utf8]{inputenc}
 \usepackage{babel}
 \babelprovide[import, main]{italian}
@@ -17,6 +19,8 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{7pt}
 
+\DisableLigatures[f]{encoding = *}  % no fi/fl/ff ligatures
+
 % ── Colours (identical to CV) ────────────────────────────────
 \definecolor{accent}{HTML}{1A3C6E}
 \definecolor{light}{HTML}{4A7CB5}
@@ -27,7 +31,7 @@
 \pagestyle{empty}
 
 % ── Fill these in for each application ───────────────────────
-\newcommand{\azienda}{M4 SpA}
+\newcommand{\azienda}{INTEGRA Ingegneria Territorio Grandi infrastrutture srl}
 
 %% ============================================================
 \begin{document}
@@ -54,27 +58,27 @@
 
 % ── RECIPIENT & DATE ─────────────────────────────────────────
 \begin{flushright}
-  \textbf{\azienda}\\
+  Spett.le \textbf{\azienda}\\
 \end{flushright}
 
 \vspace{4pt}
-Milano, 6 ottobre 2026
+Milano, 9 novembre 2026
 
 \vspace{4pt}
-{\color{accent}\textbf{Oggetto: Candidatura per un tirocinio da fine studi a partire da marzo 2027}}
+{\color{accent}\textbf{Oggetto: Candidatura per un tirocinio di fine studi di sei mesi a partire da marzo 2027}}
 
 \vspace{4pt}
 Gentile Signora, Gentile Signore,
 
-sono uno studente di ingegneria all'École nationale des ponts et chaussées (ENPC) di Parigi, attualmente in scambio al Politecnico di Milano, dove seguo corsi di ingegneria dell'infrastrutture, economia internazionale, finanza delle infrastrutture e calcolo ad alte prestazioni. Vi scrivo per proporre la mia candidatura per un tirocinio di dine studi presso il progetto \azienda, a partire da marzo 2027. Cerco una posizione dove portei condurre studi di carattere tecnico, scientifico o economico sui vostri mercati, oppure un'esperienza in cantiere.
+sono uno studente di ingegneria all'\textit{École nationale des ponts et chaussées} di Parigi e in scambio al \textit{Politecnico di Milano}. Le scrivo in merito a un tirocinio di fine studi di sei mesi nel settore delle infrastrutture, per esempio in cantiere o come ingegnere strutturista.
 
-La mia formazione unisce ingegneria civile, la meccanica delle strutture e il calcolo numerico. Ho sviluppato in autonomia una suite di simulazione CFD basata su OpenFOAM e Gmsh, e strumenti di verifica strutturale secondo gli Eurocodici con Abaqus \& OpenSeesPy. Programmo in Python e C++ da oltre dieci anni e ho lavorato su numerosi progetti di analisi dati e di machine learning. Queste competenze mi permettono di affrontare problemi fisici complessi, dalla modellazione di un impianto alla gestione e all'ottimizzazione di una rete.
+Attualmente seguo corsi di meccanica delle strutture, finanza ed esercizio, e la mia scuola francese è di primo piano nell'ingegneria civile e nel calcolo numerico. Ci tengo a sottolineare che ho maturato un anno di esperienza professionale, di cui sei mesi come ingegnere delle infrastrutture presso \textbf{Tractebel} sul progetto ferroviario CDG Express. È stata per me un'esperienza importante, a cavallo tra i cantieri, i calcolo strutturale e la progettazione. 
 
-Ho inoltre maturato due esperienze professionali significative. Presso \textbf{Tractebel}, ho partecipato al progetto CDG Express, una linea ferroviaria da 2,5 miliardi di euro, occupandomi di verifiche strutturali, della revisione di relazioni di calcolo e della redazione di rapporti tecnici per il cliente. Presso \textbf{SNCF Voyageurs}, ho gestito un progetto digitale da 150.000~€ nella manutenzione del materiale rotabile, coordinando 15 artisti 3D in tutta la Francia e seguendo l'intero processo di gara e di acquisto. Ho così imparato a lavorare con rigore tecnico, ma anche a comunicare con interlocutori diversi e a rispettare budget e scadenze.
+Oggi, dopo il mio anno di tirocini che mi ha permesso di sviluppare le soft skills e di lavorare su progetti trasversali, desidererei una posizione più tecnica per affermarmi come ingegnere completo. Mi candido quindi con entusiasmo presso la Vostra azienda, i cui numerosi progetti rispondono pienamente alle mie aspirazioni, soprattutto nel campo dei grandi strutture.
 
-Al di fuori degli studi, sono soccorritore volontario della Croce Rossa francese e ho diretto un musical studentesco con 75 artisti e un budget di 4.500~€. Queste attività mi hanno insegnato a mantenere la calma sotto pressione e a guidare una squadra verso un obiettivo comune. Parlo francese, inglese (C1), tedesco (B2) e italiano (B1), lingua che continuo a migliorare ogni giorno a Milano.
+Questo tirocinio rappresenterebbe un ottimo punto di partenza per una carriera europea in questo settore. Inoltre, credo di poter già contribuire concretamente ai Vostri progetti. Parlo italiano a livello B2 e ormai mi trovo a mio agio nel lavoro di squadra.
 
-Sarei felice di poter approfondire la mia motivazione durante un colloquio. Ringraziandovi per l'attenzione, vi porgo i miei più cordiali saluti.
+Sarei lieto di approfondire la mia candidatura in occasione di un colloquio, e il mio CV descrive nel dettaglio le mie esperienze in azienda e in ambito associativo. RingraziandoLa per l'attenzione, Le porgo i miei più cordiali saluti.
 
 \vspace{14pt}
 \begin{flushright}
